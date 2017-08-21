@@ -1,0 +1,12 @@
+version: '3'
+services:
+ handjob_bot:
+  build: .
+  volumes:
+   - ./app:/app
+   - ./images:/images
+  stdin_open: true
+  tty: true
+  deploy:
+   restart_policy:
+    condition: on-failure

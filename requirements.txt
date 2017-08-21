@@ -1,0 +1,3 @@
+Pillow
+pyTelegramBotAPI
+uuid
